@@ -1,0 +1,9 @@
+<library path="libhero_chassis_controller">
+    <class name="hero_controllers/HeroChassisController"
+           type="hero_controllers::HeroChassisController"
+           base_class_type="controller_interface::ControllerBase">
+        <description>
+            A Hero chassis velocity controller that uses PID to control the velocity of individual wheels.
+        </description>
+    </class>
+</library>
