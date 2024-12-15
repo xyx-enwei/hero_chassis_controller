@@ -1,7 +1,7 @@
 # hero_chassis_controller  
 ## 简介
 
-hero_chassis_controller 是一个 ROS 控制器功能包，用于实现麦克纳姆轮机器人底盘的运动控制。它支持接受 /cmd_vel 指令，并通过逆运动学计算轮子期望转速，同时基于正运动学实现里程计发布。该控制器基于 EffortJointInterface，可以与 Gazebo 仿真和真实机器人集成。  
+hero_chassis_controller 是一个 ROS 控制器功能包，用于实现麦克纳姆轮机器人底盘的运动控制。它支持接受 /cmd_vel 指令，并通过逆运动学计算轮子期望转速，同时基于正运动学实现里程计发布。可以用键盘控制机器人运动。
 ## 功能特点
 
     支持麦克纳姆轮的底盘运动控制：
